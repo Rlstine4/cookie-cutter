@@ -1,0 +1,9 @@
+{
+    "project_name": "My Library",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "description": "A header-only C++ library",
+    "author": "Your Name",
+    "version": "0.1.0",
+    "cxx_standard": ["20", "17", "23"],
+    "_copy_without_render": ["cmake/CPM.cmake"]
+}
